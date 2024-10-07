@@ -76,12 +76,76 @@ li:hover{
 
 
 /* main */
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    background-color: #6d0202;
+    gap: 10px;
+    margin-top: 30px;
+    gap: 20px; 
+    padding: 20px 0; 
+}
+
+#land{
+    margin-top: 15px;
+    flex: 1 0 auto;
+    gap: 20px;
+    background-color: #6d0202;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+    text-align: center; 
+}
+
+#land img {
+    max-width: 100%; 
+    margin: 20px 0; 
+    border-radius: 10px; 
+    border: 2px solid black; 
+}
+
+#land p {
+    width: 70%; 
+    margin: 10px auto; 
+    text-align: justify; 
+    line-height: 1.6;
+}
+
+#second-land{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 90%; 
+    padding: 20px 20px 20px 20px; 
+
+}
+#second-land img{
+    max-width: 70%;
+    min-width: 70%;
+}
+
+#second-land > p{
+    line-height: 1.6; 
+    margin-bottom: 15px;   
+}
+
+#arsenal-fan-page-text{
+    margin: 15px;
+}
 
 
+#paragraph-container{
+    width: 60%;
+    max-width: 700px; 
+    margin: 20px auto;
+}
 
-
-
-
+ 
 /* Footer */
 
 

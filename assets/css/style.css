@@ -34,7 +34,45 @@ h1, h2, h3 {
 }
 
 /* Header */
+header{
+    font-family: 'Oswald', sans-serif;
+    background-color: #bcafaf;
+    position: fixed;
+    z-index: 99;
+    padding: 0rem 1rem 0.1rem 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 
+}
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    display: flex;
+    font-size: 100%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    gap: 10px;
+}
+li{
+    border: 2px solid #3a3a3a;
+    border-radius: 5px;
+    color: #3a3a3a;
+    padding: 1px;
+}
+li:hover{
+    transform: scale(1.1);
+    background: rgb(144, 30, 30);
+    transition-timing-function: ease; 
+    transition-duration: 0.5s;
+}
+#logo {
+    font-size: 150%;
+}
 
 
 /* main */

@@ -32,6 +32,7 @@ stats
 ![stats Page Desktop](docs/readme_images/stats-desktop.png)
 ![stats Page Mobile](docs/readme_images/stats-mobile.png)
 
+
 ## Technologies
 
 

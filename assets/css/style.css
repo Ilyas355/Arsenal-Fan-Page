@@ -148,7 +148,45 @@ main {
 }
 
 /* fun facts section */
+#Grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin: 5px;
+}
 
+.grid-item{
+    background-color: #A00;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    
+}
+
+.img-container {
+    margin-right: 10px; 
+}
+
+.grid-item img {
+    max-width: 90%;
+    max-height: 100%; 
+    object-fit: cover;
+}
+
+.text-container p {
+    color: white;
+    margin: 0;
+}
  
 /* Footer */
 #social-networks {

@@ -33,7 +33,9 @@ h1, h2, h3 {
     letter-spacing: 2px;
     text-decoration: underline;
 }
-
+p {
+    font-family: 'Mulish', sans-serif;
+}
 
 /* Header */
 header{

@@ -256,6 +256,17 @@ tbody tr:nth-child(even) {
     color: #3a3a3a;
 }
 
+/* media query: screen spacing for mobile view */
+@media screen and (max-width: 380) {
+    h1{
+        margin-top: 150px;
+    }
+    #logo {
+        font-size: 30%;
+    }
+}
+
+
 /* media query: large or landscape phones */
 @media screen and (min-width: 567px){
     #Grid {

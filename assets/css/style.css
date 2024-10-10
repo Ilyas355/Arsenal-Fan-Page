@@ -37,10 +37,10 @@ p {
 /* Header */
 header{
     font-family: 'Oswald', sans-serif;
-    background-color: #bcafaf;
+    background-color: #736a6a;
     position: fixed;
     z-index: 99;
-    padding: 0rem 1rem 0.1rem 1rem;
+    padding: 0.1rem 1rem 0.2rem 1rem;
     width: 100%;
     display: flex;
     flex-direction: row;

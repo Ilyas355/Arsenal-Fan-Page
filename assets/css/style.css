@@ -20,12 +20,7 @@ body {
     text-align: center;
     color: #ffffff;
 }
-img{
-    max-height: 250px;
-    max-width: 350px;
-    border: 2px solid black;
-    border-radius: 4px;
-}
+
 
 h1, h2, h3 {
     font-family: 'Protest Strike', sans-serif;

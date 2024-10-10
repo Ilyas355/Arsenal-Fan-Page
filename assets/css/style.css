@@ -202,6 +202,46 @@ main {
     font-size: 80%;
 }
  
+/* table */
+
+#table_background{
+    background: url('../images/Arsenal-background.jpg') center/cover ;
+}
+.table{
+    color: White;
+    margin-top: 30px;
+    width: 75vw;
+    height: 83vh;
+    padding: .8rem;
+    margin-top: 55px;
+    background-color: #fff5;
+    backdrop-filter: blur(12px);
+    box-shadow: 0.4rem .8rem #0005;
+    border-radius: .8rem;
+
+    overflow: auto;
+}
+.table::-webkit-scrollbar {
+    display: none;
+  }
+.table_header{
+    width: 100%;
+    background-color: #fff4;
+    padding: .8rem 1rem;
+    border-radius: 5px;
+}
+table, th, td {
+    padding: 1rem;
+    border-collapse: collapse;
+}
+
+.table_header h2{
+    margin-top: 0;
+}
+tbody tr:nth-child(even) {
+    background-color: #0000000b;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;

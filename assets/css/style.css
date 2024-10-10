@@ -59,12 +59,14 @@ ul{
     list-style-type: none;
     gap: 10px;
 }
+
 li{
-    border: 2px solid #3a3a3a;
+    border: 2px solid #fff3f3;
     border-radius: 5px;
-    color: #3a3a3a;
+    color: #ffffff;
     padding: 1px;
 }
+
 li:hover{
     transform: scale(1.1);
     background: rgb(144, 30, 30);

@@ -196,6 +196,10 @@ main {
 .text-container p {
     color: white;
     margin: 0;
+    padding: 5px;
+    border-radius: .4rem;
+    border: 1px dashed black;
+    font-size: 80%;
 }
  
 /* Footer */

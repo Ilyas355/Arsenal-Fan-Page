@@ -162,13 +162,14 @@ main {
 }
 
 .grid-item{
-    background-color: #A00;
-    border: 2px solid white;
-    border-radius: 10px;
+    background-color: #fff5;
+    backdrop-filter: blur(12px);
+    border-radius: .8rem;
     padding: 20px;
     display: flex; 
     align-items: center;
     justify-content: center;
+    gap: 5px;
     
 }
 

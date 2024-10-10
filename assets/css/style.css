@@ -83,7 +83,7 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    background: url('../images/Arsenal-background.jpg') center/cover ;
+    background: url('../images/Arsenal-background.webp') center/cover ;
     gap: 10px;
     padding: 20px 0; 
     justify-content: center;
@@ -205,7 +205,7 @@ main {
 /* table */
 
 #table_background{
-    background: url('../images/Arsenal-background.jpg') center/cover ;
+    background: url('../images/Arsenal-background.webp') center/cover ;
 }
 .table{
     color: White;

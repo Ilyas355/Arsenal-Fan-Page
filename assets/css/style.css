@@ -297,6 +297,10 @@ tbody tr:nth-child(even) {
         width: 350px;
         height: 198px;
     }
+    .grid-item img {
+        width: 90%;
+        height: 100%; 
+    }
 }
 
 /* media query: adjust table for smaller screens */

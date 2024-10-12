@@ -271,12 +271,12 @@ tbody tr:nth-child(even) {
 }
 
 /* media query: screen spacing for mobile view */
-@media screen and (max-width: 380) {
+@media screen and (max-width: 380px) {
     h1{
-        margin-top: 150px;
+        margin-top: 10px;
     }
     #logo {
-        font-size: 30%;
+        font-size: 90%;
     }
 }
 

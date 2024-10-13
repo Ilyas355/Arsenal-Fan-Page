@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Strike&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Strike&family=Teko:wght@300..700&display=swap');
+
 /* root styles */
 * {
     padding: 0;
@@ -190,23 +191,13 @@ main {
 }
 
 .grid-item img {
-    max-width: 90%;
-    max-height: 100%; 
+    width: 141px; 
     object-fit: cover;
     border-radius: .8rem;
     border: none;
     margin: 5px;
 }
 
-.text-container p {
-    color: white;
-    margin: 0;
-    padding: 5px;
-    border-radius: .4rem;
-    border: 1px dashed black;
-    font-size: 80%;
-}
- 
 .text-container p {
     color: white;
     margin: 0;
@@ -391,5 +382,6 @@ tbody tr:nth-child(even) {
     .grid-item img {
         width: 310px;
     }
+    
 
 }

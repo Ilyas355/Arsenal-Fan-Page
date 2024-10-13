@@ -30,6 +30,8 @@
   }
   
   /* Header */
+
+  /* push nav links to the right side of header and logo to the left */
   header {
     font-family: "Oswald", sans-serif;
     background-color: #736a6a;
@@ -61,6 +63,7 @@
     padding: 1px;
   }
   
+  /* increase size of the nav links when hovered and change color */
   li:hover {
     transform: scale(1.1);
     background: rgb(144, 30, 30);
@@ -83,6 +86,7 @@
     align-items: center;
   }
   
+  /* display the first header and image stacked on top of each other on smaller screens */
   #land {
     margin-top: 15px;
     flex: 1 0 auto;
@@ -111,6 +115,7 @@
     line-height: 1.6;
   }
   
+  /* display the second header and image stacked on top of each other on smaller screens */
   #second-land {
     flex: 1 0 auto;
     display: flex;
@@ -147,7 +152,9 @@
     margin: 20px auto;
   }
   
-  /* fun facts section */
+  /* fun facts page */
+
+  /* display content in a grid with one column on smaller screens */
   #Grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -168,6 +175,7 @@
     gap: 5px;
   }
   
+  /* display content in each individual grid item with image and text stacked on top of each other */
   .content {
     display: flex;
     flex-direction: column;
@@ -325,6 +333,8 @@
     .table {
       width: 100vw;
     }
+
+    /* align the correct header to the correct data */
     td:nth-of-type(1):before {
       content: "ID";
     }

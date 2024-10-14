@@ -357,12 +357,15 @@ tbody tr:nth-child(even) {
 
 /* media query: desktop */
 @media screen and (min-width: 1200px) {
+    #land{
+        margin-top: 0;
+    }
     #second-land {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        padding: 20px 20px 20px 100px;
+        padding: 20px 20px 5px 100px;
     }
     #arsenal-fan-page-image {
         margin-left: 60px;

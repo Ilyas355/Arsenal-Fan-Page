@@ -149,13 +149,13 @@ ArsenalFanPage is a website for Arsenal fans, and those interested in Arsenal's 
 
 ### Tools Testing
 
-* [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+* [Microsoft Edge](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)
 
-    - Firefox dev tools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
+    - Microsoft Edge dev tools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
 
 * Responsiveness
 
-    - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) was used to check responsivity throughout the project.
+    - [Microsoft Edge](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview) was used to check responsivity throughout the project.
  
 * Accesibility
     - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used for generating the lighthouse report and further reccomended documentation was utilised to increase the score.

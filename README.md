@@ -25,7 +25,7 @@ ArsenalFanPage is a website for Arsenal fans, and those interested in Arsenal's 
 
 * Logo
     * Comprised of a football Icon taken from fontawesome.com and the word 'ArsenalFanPage' which is the name of the site.
-    * Acts as a unique logo that identified the site and sends directs users to the home page when pressed.
+    * Acts as a unique logo that identified the site and directs users to the home page when pressed.
 
 ![Logo](docs/readme_images/Logo.png)
 * Footer

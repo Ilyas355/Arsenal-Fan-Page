@@ -22,6 +22,12 @@ ArsenalFanPage is a website for Arsenal fans, and those interested in Arsenal's 
     * This will allow easy navigation to the pages within the site on any device.
 
 ![Nav Menu](docs/readme_images/navigation.png)
+
+* Logo
+    * Comprised of a football Icon taken from fontawesome.com and the word 'ArsenalFanPage' which is the name of the site.
+    * Acts as a unique logo that identified the site and sends directs users to the home page when pressed.
+
+![Logo](docs/readme_images/Logo.png)
 * Footer
     * This will contain icons that acts as links that will open to social media websites in a new tab. The Icons will be accessible to the visually impaired by the use of aria labels.
     * This will allow users to follow 'ArsenalFanPage' on multiple accounts on different platforms to get information and updates that may not be accessible on the site.
@@ -217,7 +223,7 @@ Manual tests were also performed to ensure the website was accessible as possibl
 
 **Navigation Links**
 
-Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page. The links were also tested to check whether they change color to a shade of red when hovered. This was done by hovering over each link.
 
 | Navigation Link | Page to Load    |
 | --------------- | --------------- |
